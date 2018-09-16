@@ -11,7 +11,7 @@ xchart = []
 ychart = []
 
 for i in range(288):
-    ychart.append("Minute: " + str(i))
+    ychart.append("Minute: " + str(i*5))
 print(len(inp))
 
 for i in range(int(len(inp)/288 + 1)):

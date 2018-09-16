@@ -11,7 +11,7 @@ xchart = []
 ychart = []
 
 for i in range(288):
-    ychart.append("Minute: " + str(i))
+    ychart.append("Minute: " + str(i*5))
 print(len(inp))
 
 for i in range(int(len(inp)/288 + 1)):
@@ -40,7 +40,7 @@ data = [
 ]
 
 layout = go.Layout(
-    title='Motor Temperature in Kelvin',
+    title='Motor Temperature in Kelvin ESP01',
     xaxis = dict(ticks='', nticks=36),
     yaxis = dict(ticks='' )
 )
